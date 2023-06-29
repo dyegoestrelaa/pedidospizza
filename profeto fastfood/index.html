@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria do Tom</title>
+
+<style>
+
+* {
+
+margin: 0;
+border: 0;
+padding: 0;
+
+}
+
+html {
+
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+header {
+
+background-image: linear-gradient(to top, #fff, #ff0000);
+text-align: center;
+padding-top: 1%;
+margin: auto;
+max: width 100px;%;
+
+
+}
+
+nav {
+
+text-align: right;
+font-size: 1.6rem;
+word-spacing: 30px;
+margin-right: 18px;
+padding-bottom: 1px;
+padding top: 5px;
+}
+
+
+section {
+
+display: block;
+
+}
+
+
+figure {
+
+margin-block-start: 5em;
+margin-block-end: 1em;
+margin-inline-start: 40px;
+margin-inline-end: 50px;
+
+}
+
+a {
+    text-decoration: none;
+    color: yellow;  
+    font-weight: bolde;
+    text-shadow: 2px 2px 3px #000;
+    background-color: rgb(255, 0, 0);
+    padding: 5px;   
+    border-radius: 10px ;
+    
+}
+
+figure {
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 90px;
+    margin-inline-end: 40px;
+    text-align: center;
+}
+   
+#conteudocima 
+
+{
+
+    background-color: #fff;
+    color:#ff0000;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+.conteudo {
+
+    font-size: 1.6rem;
+    background-color: #fff;
+    padding: 1.5rem;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 100%;
+
+}
+
+#grid-conteudo {
+
+background-color:#fff;
+padding-top: 5rem;
+
+}
+
+h5{
+
+    font-size: 3rem;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+
+
+}
+
+.imagens-site {
+
+    border-radius: 10px 10px 10px 10px;
+    width: 70%;
+    height: 50%;
+    border: solid;
+}
+
+
+
+@media (min-width: 280px) and (max-width: 820px)
+.imagens-site {
+    border-radius: 20px 20px 50px 20px;
+    width: 90%;
+    height: 70%;
+}
+
+
+img {
+
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
+}
+
+
+div {
+    display: block;
+}
+
+
+.grid {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.grid div {
+    background-color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+
+footer {
+
+
+    background-image: linear-gradient(rgb(209, 20, 20) 30%, Darkorange, #ffa60041);
+    text-align: center;
+    padding: 1rem;
+    color: #000;
+    font-size: 2rem;
+
+}
+
+</style>
+
+</head>
+
+<body>
+    <header>
+
+         <nav>
+
+        <a href="#">PIZZAS</a>
+        <a href="#">BEBIDAS</a>
+        <a href="#">SALGADOS</a>
+    
+        </nav>
+
+        <figure>
+
+         <img  src="imagem/pizzaBairro.png" alt="Pizza do Bairro">
+                
+        </figure> 
+
+    </header>
+    
+
+    <section id="conteudocima" >
+        
+        
+            <h1> Pizzas, bebidas e salgados todos os dias </h1><br>
+            <h5>Promoção</h5>
+            <h5>de segunda a quinta todas as PIZZAS por</h5>
+            <h5>apenas R$ 69,99</h5>
+      
+
+    </section>
+
+   
+
+    <section class="conteudo" id="grid-conteudo">
+      
+        <br>
+        <a href="#" id="Pizzas"></a>
+        <br>
+
+        <h5>Cárdapio de Pizza</h5> 
+        <br>
+        
+        <div class="grid">
+            
+            <div>
+                <figure>
+                   <img class="imagens-site"src="imagem/calabresa.jpg" alt="Pizza de calabresa">
+                   <figcaption>
+                    <a href="#">Pizza de calabresa</a>
+                   </figcaption>
+                </figure>
+            </div>
+
+
+        <div>
+            <figure>
+               <img class="imagens-site"src="imagem/frango.jpg" alt="Pizza de frango"> 
+               <figcaption>
+                <a href="#">Pizza de frango</a>
+               </figcaption>
+            </figure>
+        </div>
+
+        <div>
+            <figure>
+               <img class="imagens-site"src="imagem/marguerita.jpg" alt="Pizza de Marguerita"> 
+               <figcaption>
+                <a href="#">Pizza de Marguerita</a>
+               </figcaption>
+            </figure>
+        </div>
+
+        <div>
+            <figure>
+               <img class="imagens-site"src="imagem/mussarela.jpg" alt="Pizza de Mussarela"> 
+               <figcaption>
+                <a href="#">Pizza de Mussarela</a>
+               </figcaption>
+            </figure>
+        </div>
+
+        <div>
+            <figure>
+               <img class="imagens-site"src="imagem/palmito.jpg" alt="Pizza de Palmito"> 
+               <figcaption>
+                <a href="#">Pizza de Palmito</a>
+               </figcaption>
+            </figure>
+        </div>
+
+        <div>
+            <figure>
+               <img class="imagens-site"src="imagem/portuguesa.jpg" alt="Portuguesa"> 
+               <figcaption>
+                <a href="#">Pizza de Portuguesa</a>
+               </figcaption>
+            </figure>
+        </div>
+
+      </div>
+
+       
+    </section>
+
+
+<section>
+    
+    <section class="conteudo" id="grid-conteudo">
+      
+      <br>
+      <a href="#" id="Refrigerantes"></a>
+      <br>
+
+      <h5>Refrigerantes</h5> 
+      <br>
+      
+      <div class="grid">
+          
+          <div>
+                <figure>
+                   <img class="imagens-site"src="imagem/refri1.jpg" alt="Coca cola 2L">
+                   <figcaption>
+                    <a href="#">Coca cola 2L</a>
+                   </figcaption>
+                </figure>
+            </div>
+
+
+        <div>
+            <figure>
+               <img class="imagens-site"src="imagem/refri2.jpg" alt="Fanta de 2L">
+               <figcaption>
+                <a href="#">Fanta de 2L</a>
+               </figcaption>
+            </figure>
+        </div>
+
+        <div>
+            <figure>
+               <img class="imagens-site"src="imagem/refri3.jpg" alt="Soda de 2L">
+               <figcaption>
+                <a href="#">Soda de 2L</a>
+               </figcaption>
+            </figure>
+        </div>
+
+        <div>
+            <figure>
+               <img class="imagens-site"src="imagem/refri4.jpg" alt="Refrigerantes de latas">
+               <figcaption>
+                <a href="#">Refrigerantes de latas</a>
+               </figcaption>
+            </figure>
+        </div>
+
+        <div>
+            <figure>
+               <img class="imagens-site"src="imagem/refri5.jpg" alt="Coca Cola Lata">
+               <figcaption>
+                <a href="#">Coca Cola Lata</a>
+               </figcaption>
+            </figure>
+
+        </div>
+
+        <div>
+            
+            <figure>
+               <img class="imagens-site"src="imagem/refri6.jpg" alt="Guarana de Lata">
+               <figcaption>
+                <a href="#">Guarana de Lata</a>
+               </figcaption>
+            </figure>
+
+        </div>
+        
+    </div>
+    
+</section>
+
+
+
+    <footer>
+            
+        <h3><strong>Pizza do Tom </h3>
+            <h4>a melhor opção da região</h4>
+           <br>
+            <p>WhatsApp Canino: (83) 9-88476899 </p>
+<br>
+            <p>Desenvolvido por: <strong>DYEGO ESTRELA DEV LTDA</strong></p>
+
+
+
+     </footer>
+</body>
+</html>
